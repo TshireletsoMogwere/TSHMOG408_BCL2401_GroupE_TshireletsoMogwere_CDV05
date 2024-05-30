@@ -130,9 +130,23 @@ h3 {
 }
 
 .brief {
-    top: 8px;
-    left: 55%;
+    position: absolute;
+    top: 500px;
+    left: 50%;
 }
+
+.brief1 {
+    position: absolute;
+    top: 800px;
+    left: 50%;
+}
+
+.brief2 {
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+}
+
 
 #footer {
     top: 1555px;
