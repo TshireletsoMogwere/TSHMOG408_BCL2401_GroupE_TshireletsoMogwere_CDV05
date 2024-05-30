@@ -1,13 +1,20 @@
 body {
     background-color: rgb(238, 230, 230);
-    justify-content: center;
-
+    margin: 0; 
+    overflow-x: hidden; 
 }
+
+.container {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
 .round-image {
     border-radius: 50%;
-    width: 200px; /* Ensure the width is consistent */
-    height: 200px; /* Set height to match width for perfect circle */
-    object-fit: cover; /* Ensure the image covers the entire circle */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 h1 {
@@ -125,4 +132,36 @@ h3 {
 .brief {
     top: 8px;
     left: 55%;
+}
+
+#footer {
+    top: 1550px;
+    left: 50%;
+    width: 100%;
+}
+
+.contact {
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    display: flex;
+    top: 1650px;
+    left: 40%;
+    width: 100%;
+}
+
+.socials {
+    position: absolute;
+    top: 1680px;
+    left: 40%;
+    width: 100%;
+}
+
+.footer-bottom {
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    top: 1600px;
+    left: 0%;
+    width: 100%;
 }
