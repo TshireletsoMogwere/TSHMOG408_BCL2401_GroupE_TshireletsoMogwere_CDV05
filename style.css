@@ -89,7 +89,7 @@ p {
 
 
  #projects {
-    background-color:beige;
+    background-color:rgb(168, 168, 164);
         font-weight: bolder;
         text-decoration: underline;
         font-size: larger;
@@ -111,7 +111,7 @@ h3 {
     position: absolute;
     text-align: center;
     top: 500px;
-    left: 0%;
+    left: 10%;
     width: 100%;
 }
 
@@ -119,12 +119,12 @@ h3 {
     justify-content: center;
     position: absolute;
     top: 420px;
-    left: 58%;
+    left: 70%;
    
 }
 
 .brief {
     position: absolute;
-    top: 0px;
-    left: 78%;
+    top: 80px;
+    left: 55%;
 }
