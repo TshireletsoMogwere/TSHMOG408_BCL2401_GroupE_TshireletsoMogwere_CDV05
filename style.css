@@ -118,7 +118,13 @@ h3 {
 .svg {
     justify-content: center;
     position: absolute;
-    top: 500px;
+    top: 420px;
     left: 58%;
    
+}
+
+.brief {
+    position: absolute;
+    top: 0px;
+    left: 78%;
 }
