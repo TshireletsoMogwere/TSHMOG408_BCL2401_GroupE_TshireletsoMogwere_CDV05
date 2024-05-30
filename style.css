@@ -109,22 +109,20 @@ h3 {
     font-weight: bolder;
     font-size: larger;
     position: absolute;
-    text-align: center;
-    top: 500px;
-    left: 10%;
+    top: 1000px;
+    left: 0%;
     width: 100%;
 }
 
 .svg {
     justify-content: center;
-    position: absolute;
-    top: 420px;
-    left: 70%;
+    position:relative;
+    top: 50px;
+    left: 0%;
    
 }
 
 .brief {
-    position: absolute;
-    top: 80px;
+    top: 8px;
     left: 55%;
 }
