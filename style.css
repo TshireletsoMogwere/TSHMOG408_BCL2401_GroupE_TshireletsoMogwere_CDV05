@@ -3,11 +3,23 @@ body {
     justify-content: center;
 
 }
+.round-image {
+    border-radius: 50%;
+    width: 200px; /* Ensure the width is consistent */
+    height: 200px; /* Set height to match width for perfect circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
 
 h1 {
     font-weight: bolder;
     font-size: xx-large;
     text-align:justify;
+    text-align: center;
+    position: absolute; 
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
     
 }
 
@@ -25,7 +37,7 @@ h1 {
     font-size: larger;
     text-align: center;
     position: absolute; 
-    top: 0;
+    top: 200px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%; 
@@ -33,6 +45,11 @@ h1 {
 
 p {
     text-align: center;
+    position: absolute; 
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
     
     
 }
@@ -41,12 +58,43 @@ p {
     font-weight: bolder;
     text-decoration: underline;
     font-size: larger;
+    position: absolute; 
+    text-align: center;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
     
 }
 
-.projects {
+#skills {
+    position: absolute; 
+    text-align: center;
+    top: 340px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+}
+
+.project {
     font-weight: bolder;
     text-decoration: underline;
-    font-size: larger
-    
+    font-size: larger;
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 48%;
+   
+}
+
+    #projects {
+        font-weight: bolder;
+        text-decoration: underline;
+        font-size: larger;
+        position: absolute;
+        text-align: center;
+        top: 400px;
+        left: 0;
+        width: 100%;
+        
 }
