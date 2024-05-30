@@ -82,12 +82,14 @@ p {
     font-size: larger;
     position: absolute;
     text-align: center;
-    top: 350px;
+    top: px;
     left: 48%;
    
 }
 
-    #projects {
+
+ #projects {
+    background-color:beige;
         font-weight: bolder;
         text-decoration: underline;
         font-size: larger;
@@ -97,4 +99,26 @@ p {
         left: 0;
         width: 100%;
         
+}
+
+.image {
+    display: flex;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: larger;
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    left: 0%;
+    width: 100%;
+}
+
+.svg {
+    justify-content: center;
+    position: absolute;
+    top: 500px;
+    left: 58%;
+   
 }
