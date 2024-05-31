@@ -84,7 +84,7 @@ section {
 
 
 
-.skills, .projects, .footer {
+.skill, .projects, .footer {
     background: #fff;
     margin: 20px 0;
     padding: 20px;
@@ -121,7 +121,7 @@ section {
     font-size: 18px;
 }
 
-.skills ul {
+.skill ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -129,7 +129,7 @@ section {
     gap: 10px;
 }
 
-.skills ul li {
+.skill ul li {
     background: #535853;
     color: #fff;
     padding: 10px 20px;
