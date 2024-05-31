@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -162,6 +163,11 @@ section {
     text-decoration: none;
 }
 
+ #tech {
+   margin-top: -40px;
+   text-align: center;
+}
+
 .footer {
     background: #333;
     color: #fff;
@@ -173,3 +179,67 @@ section {
     color: #5e5e5e;
     text-decoration: none;
 }
+
+
+/* Media Queries */
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1200px) {
+    .container {
+         max-width: 1200px;
+     }
+ }
+ 
+ /* Medium screens (laptops) */
+ @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+         max-width: 900px;
+     }
+    .header img.round-image {
+         width: 100px;
+         height: 100px;
+     }
+    .nav {
+         font-size: 16px;
+     }
+    .socials {
+         top: 150px;
+         left: 70%;
+     }
+ }
+ 
+/* Small screens (tablets) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+         max-width: 600px;
+     }
+    .header img.round-image {
+         width: 80px;
+         height: 80px;
+     }
+    .nav {
+         font-size: 14px;
+     }
+    .socials {
+         top: 120px;
+         left: 60%;
+     }
+ }
+ 
+ /* Extra small screens (phones) */
+ @media only screen and (max-width: 479px) {
+    .container {
+         max-width: 300px;
+     }
+    .header img.round-image {
+         width: 60px;
+         height: 60px;
+     }
+    .nav {
+         font-size: 12px;
+     }
+    .socials {
+         top: 100px;
+         left: 50%;
+     }
+ }
