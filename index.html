@@ -8,93 +8,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!--Header Section-->
-    <section class="header">
-        <img src="./images/TshireM.jpeg" class="round-image" alt="Round Image">
-        <h1>Tshireletso Mogwere</h1>
-         <div class="nav">
-            <ul><a href="#about-me">About Me</a></ul>
-            <ul><a href="#skills">Skills</a></ul>
-            <ul><a href="#projects">Projects</a></ul>
-            <ul><a href="#contact">Contact</a></ul>
+    <header class="header">
+        <div class="container">
+            <img src="./images/TshireM.jpeg" class="round-image" alt="Tshireletso Mogwere">
+            <h1>Tshireletso Mogwere</h1>
+            <nav class="nav">
+                    <ul><a href="#about-me">About Me</a></ul>
+                    <ul><a href="#skills">Skills</a></ul>
+                    <ul><a href="#projects">Projects</a></ul>
+                    <ul><a href="#contact">Contact</a></ul>
+            </nav>
         </div>
-    </section>
+    </header>
 
     <!--About Me Section-->
-    <section class="about-me">
-        <h2 id="about">About Me</h2>
-            <p>I am a Software Engineer student at Codespace. I major in HTML, CSS and basic Javascript. <br>My career goal is to become a full stack developer and one day own my software engineering company. <br>I am a dedicated, organised and methodical individual. I am eager to learn and develop new skills. <br> I am reliable and dependable. I often seek new responsiblilites within a wide range of employment areas.</p>
+    <section id="about-me">
+        <div class="about">
+            <h2>About Me</h2>
+            <p>I am a Software Engineer student at Codespace. I major in HTML, CSS, and basic JavaScript. <br>My career goal is to become a full stack developer and one day own my software engineering company. <br> I am a dedicated, organized, and methodical individual. I am eager to learn and develop new skills. <br>I am reliable and dependable, often seeking new responsibilities within a wide range of employment areas.</p>
+        </div>
+            <ul class="socials">
+                <h2 id="social-h">Socials</h2>
+                <li><a href="https://github.com/TshireletsoMogwere"><i class="fa fa-github"></i> Github</a></li>
+                <li><a href="https://www.linkedin.com/in/tshireletso-mogwere-8aaba6246/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                <li><a href="https://wordpress.com/posts/tshire02.wordpress.com"><i class="fa fa-wordpress"></i> WordPress</a></li>
+            </ul>
 
-        <h2 id="social">Socials</h2>
-        <ul id="socials">
-        <ul><a href="https://github.com/TshireletsoMogwere"><i class="fa fa-github" style="font-size:36px"></i>Github</a></ul>
-        <ul><a href="https://www.linkedin.com/in/tshireletso-mogwere-8aaba6246/"><i class="fa fa-linkedin-square" style="font-size:36px"></i>linkedIn</a></ul>
-        <ul><a href="https://wordpress.com/posts/tshire02.wordpress.com"><i class="fa fa-wordpress" style="font-size:36px"></i>wordpress</a></ul>
-        </ul>
     </section>
 
-    <!-- Skills Section -->
-    <section class="skills">
-        <h2 id="skill">Skills</h2>
-        <ul id="Skills">
-        <ul>&#10147;HTML5</ul>
-        <ul>&#10147;CSS</ul>
-        <ul>&#10147;JavaScript</ul>
-        <ul>&#10147;Redux</ul>
-        <ul>&#10147;React</ul>
-        </ul>
+    <!--Skills Section-->
+    <section id="skills" class="skills">
+        <div class="skill">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Redux</li>
+                <li>React</li>
+            </ul>
+        </div>
     </section>
 
     <!--Projects Section-->
-    <section class="projects">
-       <h2 id="Projects">Projects</h2>
-       <ul id="project">
-        <ul id="cart">Add To Cart</ul>
-        <img src="./images/Add To Cart.png" width="600" class="image" >
-        <ul id="system">Queue Number System</ul>
-        <img src="./images/Queue Number.png" width="600" class="image">
-        <ul id="game">BlackJack</ul>
-        <img src="./images/Black Jack.png" width="600" class="image">
-        <h3>Technologies Used In Projects:</h3>
-        <img src="./images/tag_logo-removebg-preview (1).png" class="svg">
-       </ul>
-
-    <div class="brief">Brief: This is an add to cart app that allows users to select and store products that they intend to purchace.
-        <br>
-        <br>
-        <button><a href="https://tshirefruitmarketcart.netlify.app">View Project</a></button>
-    </div>
-
-    <div class="brief1">Brief: This is an add to cart app that allows users to select and store products that they intend to purchace.
-        <br>
-        <br>
-        <br>
-        <button><a href="https://queuesystem.netlify.app/">View Project</a></button>
-    </div>
-    
-    <div class="brief2">Brief: This an add to cart app that allows users to select and store products that they intend to purchace.
-        <br>
-        <br> 
-        <br>
-        <button><a href="https://blackjackbytshireletso.netlify.app">View Project</a></button>
-    </div>
-    </section>
-
- <!--Footer Section-->
-    <section class="footer">
-        <h1 id="contact">Contact Me</h1>
-        <div id="contacts">
-            <span class="email"><i class="fas fa-envelope"></i></span>
-                <a href="mailto:tmogwere09@gmail.com">tmogwere09@gmail.com</a>
-                <br>
-                <span class="phone"><i class="fas fa-phone"></i></span>
-                 <a href="tel:0832578730">0832578730</a>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Add To Cart</h3>
+                <img src="./images/Add To Cart.png" alt="Add To Cart">
+                <p>Brief: This is an add to cart app that allows users to select and store products that they intend to purchase.</p>
+                <button><a href="https://tshirefruitmarketcart.netlify.app">View Project</a></button>
+            </div>
+            <div class="project-item">
+                <h3>Queue Number System</h3>
+                <img src="./images/Queue Number.png" alt="Queue Number System">
+                <p>Brief: This is a queue number system app that manages customer queues efficiently.</p>
+                <button><a href="https://queuesystem.netlify.app/">View Project</a></button>
+            </div>
+            <div class="project-item">
+                <h3>BlackJack</h3>
+                <img src="./images/Black Jack.png" alt="BlackJack">
+                <p>Brief: This is a BlackJack game app that allows users to play the popular card game online.</p>
+                <button><a href="https://blackjackbytshireletso.netlify.app">View Project</a></button>
+            </div>
         </div>
-    <div class="footer-bottom">
-        <p>&copy; Web Portfolio by Tshireletso Mogwere.</p>
-    </div>
     </section>
-    
+
+    <!--Footer Section-->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:tmogwere09@gmail.com">tmogwere09@gmail.com</a></p>
+            <p>Phone: <a href="tel:0832578730">0832578730</a></p>
+            <p>&copy; 2024 Tshireletso Mogwere. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
